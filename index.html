@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vansh Chugh - Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 1cm;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-size: 11pt;
+      line-height: 1.4;
+      color: #111;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      column-gap: 25px;
+    }
+
+    header {
+      grid-column: 1 / span 2;
+      border-bottom: 2px solid rgb(104, 104, 240);
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-size: 22pt;
+      font-weight: 700;
+    }
+
+    .role {
+      color: #2563eb;
+      font-weight: 600;
+      margin-top: 3px;
+      font-size: 12.5pt;
+    }
+
+    .contact {
+      margin-top: 6px;
+      font-size: 10.5pt;
+      color: #444;
+    }
+
+    .contact span {
+      margin-right: 15px;
+    }
+
+    h2 {
+      font-size: 12pt;
+      text-transform: uppercase;
+      color: #2563eb;
+      border-bottom: 2px solid rgb(104, 104, 240) !important;
+      margin: 10px 0;
+      padding-bottom: 3px;
+    }
+
+    h3 {
+      margin: 5px 0 3px;
+      font-size: 11.5pt;
+    }
+
+    .muted {
+      font-size: 10pt;
+      color: #666;
+    }
+
+    ul {
+      margin: 5px 0 10px 18px;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    .left-column section,
+    .right-column section {
+      margin-bottom: 15px;
+    }
+
+    .project {
+      margin-bottom: 12px;
+    }
+
+    .project-title {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+
+    .date {
+      font-size: 10pt;
+      color: #666;
+    }
+
+    .skills-list ul {
+      list-style-type: disc;
+      padding-left: 18px;
+      margin: 6px 0;
+    }
+
+    .skills-list li {
+      margin: 3px 0;
+    }
+
+    .edu-item {
+      margin-bottom: 10px;
+    }
+
+    .achievement {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <header>
+      <div class="name">VANSH CHUGH</div>
+      <div class="role">MERN Stack Developer</div>
+      <div class="contact">
+        <span>+91 7597770734</span>
+        <span>vanshchugh67@gmail.com</span>
+        <span>Sriganganagar, Rajasthan, India</span>
+        <span><a href="https://linkedin.com/in/vansh-chugh9079" target="_blank">LinkedIn</a></span>
+        <span><a href="https://github.com/vanshchugh9079" target="_blank">GitHub</a></span>
+
+      </div>
+    </header>
+
+    <!-- Left Column -->
+    <div class="left-column">
+      <section>
+        <h2>Professional Summary</h2>
+        <p>MERN Stack Developer with practical experience in building scalable web applications and real-time platforms.
+          Skilled in React.js, Node.js, Express.js, and MongoDB, with a strong foundation in front-end design and
+          back-end development. Passionate about writing clean, efficient code and improving application performance.
+          Solid problem-solving ability, strengthened through Data Structures & Algorithms.</p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <h3>MERN Stack Developer Intern</h3>
+        <div class="muted">KlaritiLearning | July 2025 – August 2025 · India</div>
+        <ul>
+          <li>Contributed to full-stack development using React.js, Next.js, Node.js, Express, and MongoDB</li>
+          <li>Developed responsive and user-friendly frontends with Next.js and Tailwind CSS</li>
+          <li>Collaborated on building scalable APIs and integrating them with dynamic UI components</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="project-title">
+            <a href="https://chatfight.netlify.app" target="_blank">ChatFight.netlify.app</a>
+          </div>
+          <ul>
+            <li>Developed a social media application with real-time messaging and AI-assisted interactions</li>
+            <li>Integrated Google login for secure and seamless authentication</li>
+            <li>Implemented a dynamic Explore feed featuring posts, reels, and stories</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <div class="project-title">
+            <a href="https://educine.netlify.app" target="_blank">Educine.netlify.app</a>
+          </div>
+          <ul>
+            <li>Built an e-learning platform with structured video courses and live classrooms</li>
+            <li>Developed course upload feature with a responsive video player</li>
+            <li>Enabled live sessions with screen sharing and participant management</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Achievements</h2>
+        <div class="achievement">
+          <h3>LeetCode</h3>
+          <p>Solved 250+ DSA problems with 50-day streak</p>
+        </div>
+        <div class="achievement">
+          <h3>TCS NQT</h3>
+          <p>Scored 90% in Coding Round</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <section>
+        <h2>Career Objective</h2>
+        <p>Recent BCA graduate with strong MERN stack skills, seeking to contribute to innovative development projects
+          while growing as a full-stack developer. Aiming to deliver scalable and user-friendly solutions while
+          enhancing my expertise.</p>
+      </section>
+
+      <section class="skills-list">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React.js, Next.js, Tailwind</li>
+          <li>Node.js, Express.js, MongoDB</li>
+          <li>Java, Data Structures ,GitHub</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="edu-item">
+          <h3>BCA</h3>
+          <span class="muted">MGSU University | 2022 – 2025</span><br>
+          <strong>75.7%</strong>
+        </div>
+        <div class="edu-item">
+          <h3>Class XII</h3>
+          <span class="muted">CBSE | 2022</span><br>
+          <strong>77.8%</strong>
+        </div>
+        <div class="edu-item">
+          <h3>Class X</h3>
+          <span class="muted">CBSE | 2020</span><br>
+          <strong>73.4%</strong>
+        </div>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <p>Hindi (Native)<br>English (Proficient)</p>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
